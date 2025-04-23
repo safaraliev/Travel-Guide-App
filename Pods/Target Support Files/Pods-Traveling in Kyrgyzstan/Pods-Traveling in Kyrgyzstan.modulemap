@@ -1,0 +1,6 @@
+framework module Pods_Traveling_in_Kyrgyzstan {
+  umbrella header "Pods-Traveling in Kyrgyzstan-umbrella.h"
+
+  export *
+  module * { export * }
+}

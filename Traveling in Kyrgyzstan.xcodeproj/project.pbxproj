@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AF3D4EE2D93D3E600C1B3B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D4ED2D93D3E600C1B3B7 /* AppDelegate.swift */; };
+		4AF3D4F02D93D3E600C1B3B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D4EF2D93D3E600C1B3B7 /* SceneDelegate.swift */; };
+		4AF3D4F52D93D3E600C1B3B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3D4F32D93D3E600C1B3B7 /* Main.storyboard */; };
+		4AF3D4F72D93D3EA00C1B3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3D4F62D93D3EA00C1B3B7 /* Assets.xcassets */; };
+		4AF3D4FA2D93D3EA00C1B3B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3D4F82D93D3EA00C1B3B7 /* LaunchScreen.storyboard */; };
+		4AF3D5022D95F4D800C1B3B7 /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D5012D95F4D800C1B3B7 /* OnboardingPageViewController.swift */; };
+		4AF3D5042D95F4E000C1B3B7 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D5032D95F4E000C1B3B7 /* OnboardingViewController.swift */; };
+		4AF3D50C2D961E1000C1B3B7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D5092D961E1000C1B3B7 /* HomeViewController.swift */; };
+		4AF3D50D2D961E1000C1B3B7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D50A2D961E1000C1B3B7 /* MainTabBarController.swift */; };
+		4AF3D50E2D961E1000C1B3B7 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D50B2D961E1000C1B3B7 /* ExploreViewController.swift */; };
+		4AF3D5112D961F3F00C1B3B7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D50F2D961F3F00C1B3B7 /* ProfileViewController.swift */; };
+		4AF3D5122D961F3F00C1B3B7 /* GuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D5102D961F3F00C1B3B7 /* GuidesViewController.swift */; };
+		4AF3D51A2D96741F00C1B3B7 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D5192D96741F00C1B3B7 /* Place.swift */; };
+		4AF3D51C2D96742E00C1B3B7 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D51B2D96742E00C1B3B7 /* PlaceAnnotation.swift */; };
+		4AF3D5252D967FB500C1B3B7 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D5242D967FB500C1B3B7 /* PlaceDetailViewController.swift */; };
+		4AF3D5282D9680E800C1B3B7 /* PlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D5272D9680E800C1B3B7 /* PlacesManager.swift */; };
+		4AF3D52B2D9680EF00C1B3B7 /* FeaturedPlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D5292D9680EF00C1B3B7 /* FeaturedPlaceCell.swift */; };
+		4AF3D52C2D9680EF00C1B3B7 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3D52A2D9680EF00C1B3B7 /* CategoryCell.swift */; };
+		FD3146635C23E16C4673DE6D /* Pods_Traveling_in_Kyrgyzstan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21F5FE5CD8CA7C5E403F445 /* Pods_Traveling_in_Kyrgyzstan.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AF3D4EA2D93D3E600C1B3B7 /* Traveling in Kyrgyzstan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traveling in Kyrgyzstan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF3D4ED2D93D3E600C1B3B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AF3D4EF2D93D3E600C1B3B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4AF3D4F42D93D3E600C1B3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AF3D4F62D93D3EA00C1B3B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AF3D4F92D93D3EA00C1B3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AF3D4FB2D93D3EA00C1B3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF3D5012D95F4D800C1B3B7 /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
+		4AF3D5032D95F4E000C1B3B7 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		4AF3D5092D961E1000C1B3B7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4AF3D50A2D961E1000C1B3B7 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		4AF3D50B2D961E1000C1B3B7 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		4AF3D50F2D961F3F00C1B3B7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4AF3D5102D961F3F00C1B3B7 /* GuidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidesViewController.swift; sourceTree = "<group>"; };
+		4AF3D5192D96741F00C1B3B7 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		4AF3D51B2D96742E00C1B3B7 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		4AF3D5242D967FB500C1B3B7 /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceDetailViewController.swift; path = "Traveling in Kyrgyzstan/Main/Views/PlaceDetailViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4AF3D5272D9680E800C1B3B7 /* PlacesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesManager.swift; path = Models/PlacesManager.swift; sourceTree = "<group>"; };
+		4AF3D5292D9680EF00C1B3B7 /* FeaturedPlaceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedPlaceCell.swift; sourceTree = "<group>"; };
+		4AF3D52A2D9680EF00C1B3B7 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		55FE4CDB4E90143B6A15DCD4 /* Pods-Traveling in Kyrgyzstan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traveling in Kyrgyzstan.debug.xcconfig"; path = "Target Support Files/Pods-Traveling in Kyrgyzstan/Pods-Traveling in Kyrgyzstan.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4523CB981B7DD618E31699 /* Pods-Traveling in Kyrgyzstan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traveling in Kyrgyzstan.release.xcconfig"; path = "Target Support Files/Pods-Traveling in Kyrgyzstan/Pods-Traveling in Kyrgyzstan.release.xcconfig"; sourceTree = "<group>"; };
+		F21F5FE5CD8CA7C5E403F445 /* Pods_Traveling_in_Kyrgyzstan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Traveling_in_Kyrgyzstan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AF3D4E72D93D3E600C1B3B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3146635C23E16C4673DE6D /* Pods_Traveling_in_Kyrgyzstan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16852B102A56316F09FDBB49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21F5FE5CD8CA7C5E403F445 /* Pods_Traveling_in_Kyrgyzstan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AF3D4E12D93D3E600C1B3B7 = {
+			isa = PBXGroup;
+			children = (
+				4AF3D4EC2D93D3E600C1B3B7 /* Traveling in Kyrgyzstan */,
+				4AF3D4EB2D93D3E600C1B3B7 /* Products */,
+				69B16E90EDDBA07B3E97DA1C /* Pods */,
+				16852B102A56316F09FDBB49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AF3D4EB2D93D3E600C1B3B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF3D4EA2D93D3E600C1B3B7 /* Traveling in Kyrgyzstan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AF3D4EC2D93D3E600C1B3B7 /* Traveling in Kyrgyzstan */ = {
+			isa = PBXGroup;
+			children = (
+				4AF3D5272D9680E800C1B3B7 /* PlacesManager.swift */,
+				4AF3D52A2D9680EF00C1B3B7 /* CategoryCell.swift */,
+				4AF3D5292D9680EF00C1B3B7 /* FeaturedPlaceCell.swift */,
+				4AF3D51F2D96758E00C1B3B7 /* Main */,
+				4AF3D51D2D96745B00C1B3B7 /* Supporting */,
+				4AF3D51E2D96747A00C1B3B7 /* Onboarding */,
+				4AF3D4F62D93D3EA00C1B3B7 /* Assets.xcassets */,
+				4AF3D4FB2D93D3EA00C1B3B7 /* Info.plist */,
+			);
+			path = "Traveling in Kyrgyzstan";
+			sourceTree = "<group>";
+		};
+		4AF3D51D2D96745B00C1B3B7 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				4AF3D4ED2D93D3E600C1B3B7 /* AppDelegate.swift */,
+				4AF3D4EF2D93D3E600C1B3B7 /* SceneDelegate.swift */,
+				4AF3D4F32D93D3E600C1B3B7 /* Main.storyboard */,
+				4AF3D4F82D93D3EA00C1B3B7 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		4AF3D51E2D96747A00C1B3B7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4AF3D5012D95F4D800C1B3B7 /* OnboardingPageViewController.swift */,
+				4AF3D5032D95F4E000C1B3B7 /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4AF3D51F2D96758E00C1B3B7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4AF3D5202D96759F00C1B3B7 /* TabBar */,
+				4AF3D5232D9675DA00C1B3B7 /* Models */,
+				4AF3D5222D9675D300C1B3B7 /* Views */,
+				4AF3D50B2D961E1000C1B3B7 /* ExploreViewController.swift */,
+				4AF3D5092D961E1000C1B3B7 /* HomeViewController.swift */,
+				4AF3D50F2D961F3F00C1B3B7 /* ProfileViewController.swift */,
+				4AF3D5102D961F3F00C1B3B7 /* GuidesViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4AF3D5202D96759F00C1B3B7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4AF3D50A2D961E1000C1B3B7 /* MainTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4AF3D5222D9675D300C1B3B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AF3D5242D967FB500C1B3B7 /* PlaceDetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4AF3D5232D9675DA00C1B3B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AF3D5192D96741F00C1B3B7 /* Place.swift */,
+				4AF3D51B2D96742E00C1B3B7 /* PlaceAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69B16E90EDDBA07B3E97DA1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55FE4CDB4E90143B6A15DCD4 /* Pods-Traveling in Kyrgyzstan.debug.xcconfig */,
+				9C4523CB981B7DD618E31699 /* Pods-Traveling in Kyrgyzstan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AF3D4E92D93D3E600C1B3B7 /* Traveling in Kyrgyzstan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF3D4FE2D93D3EA00C1B3B7 /* Build configuration list for PBXNativeTarget "Traveling in Kyrgyzstan" */;
+			buildPhases = (
+				1EAEFD649A55E04FC5EC0BA8 /* [CP] Check Pods Manifest.lock */,
+				4AF3D4E62D93D3E600C1B3B7 /* Sources */,
+				4AF3D4E72D93D3E600C1B3B7 /* Frameworks */,
+				4AF3D4E82D93D3E600C1B3B7 /* Resources */,
+				88884FB3457FA806B7DC455E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Traveling in Kyrgyzstan";
+			productName = "Traveling in Kyrgyzstan";
+			productReference = 4AF3D4EA2D93D3E600C1B3B7 /* Traveling in Kyrgyzstan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AF3D4E22D93D3E600C1B3B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4AF3D4E92D93D3E600C1B3B7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4AF3D4E52D93D3E600C1B3B7 /* Build configuration list for PBXProject "Traveling in Kyrgyzstan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AF3D4E12D93D3E600C1B3B7;
+			productRefGroup = 4AF3D4EB2D93D3E600C1B3B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF3D4E92D93D3E600C1B3B7 /* Traveling in Kyrgyzstan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AF3D4E82D93D3E600C1B3B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF3D4FA2D93D3EA00C1B3B7 /* LaunchScreen.storyboard in Resources */,
+				4AF3D4F72D93D3EA00C1B3B7 /* Assets.xcassets in Resources */,
+				4AF3D4F52D93D3E600C1B3B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EAEFD649A55E04FC5EC0BA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Traveling in Kyrgyzstan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88884FB3457FA806B7DC455E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Traveling in Kyrgyzstan/Pods-Traveling in Kyrgyzstan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Traveling in Kyrgyzstan/Pods-Traveling in Kyrgyzstan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Traveling in Kyrgyzstan/Pods-Traveling in Kyrgyzstan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AF3D4E62D93D3E600C1B3B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF3D5022D95F4D800C1B3B7 /* OnboardingPageViewController.swift in Sources */,
+				4AF3D5042D95F4E000C1B3B7 /* OnboardingViewController.swift in Sources */,
+				4AF3D50D2D961E1000C1B3B7 /* MainTabBarController.swift in Sources */,
+				4AF3D51C2D96742E00C1B3B7 /* PlaceAnnotation.swift in Sources */,
+				4AF3D50E2D961E1000C1B3B7 /* ExploreViewController.swift in Sources */,
+				4AF3D5282D9680E800C1B3B7 /* PlacesManager.swift in Sources */,
+				4AF3D4EE2D93D3E600C1B3B7 /* AppDelegate.swift in Sources */,
+				4AF3D5112D961F3F00C1B3B7 /* ProfileViewController.swift in Sources */,
+				4AF3D5122D961F3F00C1B3B7 /* GuidesViewController.swift in Sources */,
+				4AF3D4F02D93D3E600C1B3B7 /* SceneDelegate.swift in Sources */,
+				4AF3D5252D967FB500C1B3B7 /* PlaceDetailViewController.swift in Sources */,
+				4AF3D51A2D96741F00C1B3B7 /* Place.swift in Sources */,
+				4AF3D50C2D961E1000C1B3B7 /* HomeViewController.swift in Sources */,
+				4AF3D52B2D9680EF00C1B3B7 /* FeaturedPlaceCell.swift in Sources */,
+				4AF3D52C2D9680EF00C1B3B7 /* CategoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AF3D4F32D93D3E600C1B3B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF3D4F42D93D3E600C1B3B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AF3D4F82D93D3EA00C1B3B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF3D4F92D93D3EA00C1B3B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AF3D4FC2D93D3EA00C1B3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AF3D4FD2D93D3EA00C1B3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AF3D4FF2D93D3EA00C1B3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55FE4CDB4E90143B6A15DCD4 /* Pods-Traveling in Kyrgyzstan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJQCA5Q27L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Traveling in Kyrgyzstan/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smelo.Traveling-in-Kyrgyzstan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AF3D5002D93D3EA00C1B3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4523CB981B7DD618E31699 /* Pods-Traveling in Kyrgyzstan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YJQCA5Q27L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Traveling in Kyrgyzstan/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smelo.Traveling-in-Kyrgyzstan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AF3D4E52D93D3E600C1B3B7 /* Build configuration list for PBXProject "Traveling in Kyrgyzstan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF3D4FC2D93D3EA00C1B3B7 /* Debug */,
+				4AF3D4FD2D93D3EA00C1B3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF3D4FE2D93D3EA00C1B3B7 /* Build configuration list for PBXNativeTarget "Traveling in Kyrgyzstan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF3D4FF2D93D3EA00C1B3B7 /* Debug */,
+				4AF3D5002D93D3EA00C1B3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AF3D4E22D93D3E600C1B3B7 /* Project object */;
+}

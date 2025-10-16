@@ -3,7 +3,7 @@
 
 **Traveling in Kyrgyzstan** is a mobile and web application that helps travelers explore the natural beauty, culture, and landmarks of Kyrgyzstan.  
 Users can discover popular tourist destinations, find nearby attractions on the map, read detailed information, and plan their trips easily.
-
+![Drawing App Screenshot 1](/screenshot.png)
 ---
 
 ## 🌍 Features
